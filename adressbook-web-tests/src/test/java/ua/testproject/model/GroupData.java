@@ -1,4 +1,4 @@
-package ua.testproject;
+package ua.testproject.model;
 
 public class GroupData {
     private final String name;
