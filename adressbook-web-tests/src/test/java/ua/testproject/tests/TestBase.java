@@ -8,7 +8,7 @@ import ua.testproject.appmanager.ApplicationManager;
 
 public class TestBase {
 
-    protected final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
+    final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
 
     @BeforeMethod
     public void setUp() throws Exception {
